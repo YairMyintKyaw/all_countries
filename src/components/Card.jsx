@@ -31,7 +31,7 @@ const Card = ({
         </div>
         <div>
           <span className="font-semibold">Population: </span>
-          <span className="">{population}</span>
+          <span className="">{population.toLocaleString()}</span>
         </div>
         <div>
           <span className="font-semibold">Region: </span>
